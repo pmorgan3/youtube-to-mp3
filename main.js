@@ -17,7 +17,7 @@ function createWindow() {
     };
 
     mainWindow = new BrowserWindow(browserOptions);
-    mainWindow.loadURL('file://' + __dirname + '/app/index.html');
+    mainWindow.loadURL('file://' + __dirname + '/app/app/index.html');
 
     let template = [
         {
